@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Portfólio Pessoal Responsivo Completo.</title>
     <!--Link HTML para CSS-->
-<link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css">
+    <!--ícones de caixa-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-<body>
+
+
+    </head>
+
+    <body>
     <!--cabeçalho desing-->
     <header class="header">
-        <a href="#" class="logo">Jacob.</a>
+
+
+        <a href="#" class="logo">WebSite.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
          <nav class="navbar">
 
-            <a href="#menu">Menu</a>
+            <a href="#menu" class="active">Menu</a>
             <a href="#sobre">Sobre</a>
             <a href="#educacao">Educação</a>
             <a href="#habilidades">Habilidades</a>
@@ -22,12 +32,58 @@
           
          </nav>
 
-
     </header>
 
 
-    
+    <!--design da seção inicial-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Olá, Eu sou <span>James! Ajudante Webmaster</span></h1>
+            <div class="text-animated">
+                <h3>Desenvolvedor Frontal</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate fugit illo tempora accusantium quo enim consequatur esse dolore aspernatur, laboriosam cum fugiat repellat. Nesciunt, laudantium nobis.</p>
 
+            <div class="btn-box">
+                
+                <a href="#" class="btn">Contrate-me</a>
+                <a href="#" class="btn">Fale Comigo</a>
+            </div>
+        </div>
+
+        <div class="menu-sci">
+            <a href="#" ><i class="bx bxl-facebook"></i></a>
+            <a href="#" ><i class="bx bxl-twitter"></i></a>
+            <a href="#" ><i class="bx bxl-github"></i></a>
+        </div>
+
+        <div class="menu-imghover">
+
+        </div>
+    </section>
+
+    <!--sobre o desing da seção-->
+    <section class="about" id="about">
+        <h2 class="heading">Sobre<span>Mim</span></h2>
+
+        <div class="sobremim-img">
+            <img src="about.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Desesenvolvedor Frontal!</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores quisquam illo, deserunt harum delectus libero quis officia? Beatae, sint iure? Ab iste unde, iure amet distinctio eos illo praesentium odio commodi saepe adipisci aspernatur fugiat nemo ea deserunt ipsum? Iusto, maiores? Asperiores tempore excepturi maxime harum molestias ex dolorum facere.</p>
+
+            <div class="btn-box btns">
+                <a href="#" class="btn">Consulte mais Informções</a>
+            </div>
+
+        </div>
+
+
+
+    </section>
 
 
     <script src="script.js"></script>
